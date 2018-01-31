@@ -168,6 +168,16 @@
 </script>
 
 <script type="text/javascript">
+    $(document).ready(function()
+    {
+        $("#bEnviar").submit(function()
+        {
+            ga('send', 'event', 'contacto','envio-formulario', 'boton-enviar');
+        });
+    });
+</script>
+
+<script type="text/javascript">
     //funcion para validar sucursal, y alerta 
     function validarSucursal()
     {
@@ -316,8 +326,7 @@
                                     class="btn btn-store btn-block contact contact-submit"
                                     data-error-message="Error!"
                                     data-sending-message="Sending..."
-                                    data-ok-message="Email Sent"
-                                    onclick="ga('send', 'event', 'contacto','envio-formulario', 'boton-enviar')">Enviar 
+                                    data-ok-message="Email Sent">Enviar 
                                 </button>
 
                             </div>
