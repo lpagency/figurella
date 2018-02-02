@@ -167,7 +167,7 @@
     });
 </script>
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
     $(document).ready(function()
     {
         $("#bEnviar").submit(function()
@@ -175,7 +175,7 @@
             ga('send', 'event', 'contacto','envio-formulario', 'boton-enviar');
         });
     });
-</script>
+</script> -->
 
 <script type="text/javascript">
     //funcion para validar sucursal, y alerta 
@@ -326,7 +326,8 @@
                                     class="btn btn-store btn-block contact contact-submit"
                                     data-error-message="Error!"
                                     data-sending-message="Sending..."
-                                    data-ok-message="Email Sent">Enviar 
+                                    data-ok-message="Email Sent"
+                                    onclick="ga('send', 'event', 'contacto','envio-formulario', 'boton-enviar')">Enviar 
                                 </button>
 
                             </div>
