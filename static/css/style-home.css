@@ -2944,7 +2944,48 @@ textarea.fuc{
 
 }
 
+@media (max-width: 500px){
+
+.icono-contact{
+    position: relative;
+    z-index: 100;
+    height: 60px;
+}
+.mensaje {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+    float: inherit;
+}
+.mail-msg-contact{
+    top: 0px;
+    left: 21%;
+    color: rgba(128, 128, 128, 0.63);
+    position: absolute;
+    font-size: 15px;
+    margin-bottom: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: left;
+}
+.telefono-contact {
+    color: rgba(128, 128, 128, 0.63);
+    position: absolute;
+    font-size: 15px;
+    margin-bottom: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: left;
+    bottom: 15px;
+    left: 21%;
+}
+
+}
+
 @media (max-width: 414px){
+
     .top-third {
     position: relative;
     top: 16px;
@@ -3182,27 +3223,6 @@ textarea.fuc{
     float: right;
 }
 
-.mensaje {
-    width: 100%;
-    height: 30px;
-    object-fit: contain;
-    position: relative;
-    left: inherit;
-    right: 27px;
-    margin-bottom: -12px;
-    float: inherit;
-}
-
-.telefono-contact {
-    color: rgba(128, 128, 128, 0.63);
-    position: relative;
-    font-size: 17px;
-    margin-bottom: 0px;
-    right: 40px;
-    width: 107%;
-    margin-top: 0px;
-    text-align: center;
-}
 
 }
 
@@ -3248,16 +3268,6 @@ textarea.fuc{
     margin-top: -33px;
 }
 
-.telefono-contact {
-    color: rgba(128, 128, 128, 0.63);
-    position: relative;
-    font-size: 15px;
-    margin-bottom: 0px;
-    right: 40px;
-    width: 107%;
-    text-align: center;
-}
-
 }
 
 @media (max-width: 375px){
@@ -3281,15 +3291,6 @@ textarea.fuc{
     overflow: hidden;
     width: 44%;
     height: 90px;
-}
-.telefono-contact {
-    color: rgba(128, 128, 128, 0.63);
-    position: relative;
-    font-size: 15px;
-    margin-bottom: 0px;
-    right: 36px;
-    width: 107%;
-    text-align: center;
 }
 
 }
@@ -3329,15 +3330,6 @@ textarea.fuc{
 .hov-2 {
     left: 0px;
     margin-top: -74px;
-}
-.telefono-contact {
-    color: rgba(128, 128, 128, 0.63);
-    position: relative;
-    font-size: 14px;
-    margin-bottom: 0px;
-    right: 35px;
-    width: 107%;
-    text-align: center;
 }
 
 }
@@ -3426,15 +3418,12 @@ textarea.fuc{
     left: 0px;
     margin-top: -83px;
 }
-
+.mail-msg-contact {
+    top: 0px;
+    left: 25%;
+}
 .telefono-contact {
-    color: rgba(128, 128, 128, 0.63);
-    position: relative;
-    font-size: 13px;
-    margin-bottom: 0px;
-    right: 40px;
-    width: 134%;
-    text-align: center;
+    left: 25%;
 }
 
 }

@@ -2184,6 +2184,7 @@ input::-webkit-input-placeholder {
     margin-bottom: 30px !important;
     font-size: 1.4rem;
 }
+
 }
 @media (max-width: 414px){
     .box-locales {
