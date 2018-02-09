@@ -2161,7 +2161,29 @@ input::-webkit-input-placeholder {
     height: 100%;
     object-fit: contain;
 }
-
+.hla {
+    height: 150px;
+    position: relative;
+}
+.article_title {
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 1.8rem;
+    height: auto;
+    top: 0;
+    text-transform: capitalize;
+}
+.article_text {
+    left: inherit;
+    -ms-transform: none;
+    transform: none;
+    max-width: 90%;
+    height: auto;
+    text-align: left!important;
+    margin-top: 40px;
+    margin-bottom: 30px !important;
+    font-size: 1.4rem;
+}
 }
 @media (max-width: 414px){
     .box-locales {
@@ -2426,7 +2448,7 @@ input::-webkit-input-placeholder {
     line-height: 30px;
     position: inherit;
     color: #919190;
-    margin-top: -385px !important;
+    margin-top: 0px !important;
 }
 
 .hav:hover {
