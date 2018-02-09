@@ -2165,7 +2165,7 @@ input::-webkit-input-placeholder {
     height: 150px;
     position: relative;
 }
-.article_title {
+.article_title, .article_title2 {
     margin-bottom: 0px;
     text-align: left;
     font-size: 1.8rem;
@@ -2173,7 +2173,7 @@ input::-webkit-input-placeholder {
     top: 0;
     text-transform: capitalize;
 }
-.article_text {
+.article_text, .article_text2{
     left: inherit;
     -ms-transform: none;
     transform: none;
@@ -2200,7 +2200,7 @@ input::-webkit-input-placeholder {
     margin-top: 30px;
 }
 
-.article_title {
+.article_title, .article_title2 {
    /* color: #919190;*/
     margin-bottom: 30px;
 }
