@@ -1343,14 +1343,21 @@ content: url(https://7static.loadingplay.com/static/images/62898b42a2193c6d2aeaa
 }
 
 .mensaje{
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     object-fit: contain;
     position: relative;
     left: inherit;
     right: 27px;
     margin-bottom: 10px;
     float: left;
+}
+.mail-msg-contact{
+    color: rgba(128, 128, 128, 0.63);
+    position: relative;
+    font-size: 23px;
+    margin-bottom: 0px;
+    right: 16px;
 }
 
 .telefono-contact{
@@ -2941,6 +2948,42 @@ textarea.fuc{
     position: relative;
     top: 17px;
    }
+
+.mensaje {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+    float: inherit;
+}
+.mail-msg-contact{
+    top: 0px;
+    left: 21%;
+    color: rgba(128, 128, 128, 0.63);
+    position: absolute;
+    font-size: 15px;
+    margin-bottom: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: left;
+}
+.telefono-contact {
+    color: rgba(128, 128, 128, 0.63);
+    position: absolute;
+    font-size: 15px;
+    margin-bottom: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: left;
+    bottom: 15px;
+    left: 21%;
+}
+.icono-contact{
+    position: relative;
+    z-index: 100;
+    height: 60px;
+}
 
 }
 
