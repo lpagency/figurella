@@ -12,6 +12,17 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 
 <script type="text/javascript">
+    $(document).ready(function()
+    {
+        $(document).on("click", ".tel-ref", function()
+        {
+            console.log("aaaa");
+            ga('call', 'event', 'contacto','envio-llamada', 'telefono')
+        });
+    });
+</script>
+
+<script type="text/javascript">
 
 
     //Expresión para validar un correo electrónico
@@ -247,7 +258,7 @@
                 </a>
                </div>
                <div class="col-md-6 col-sm-6 col-xs-12 icono-contact" style="z-index:100;">
-                <a href="tel:+56222190121"  onclick="ga('call', 'event', 'contacto','envio-llamada', 'telefono')">
+                <a href="tel:+56222190121" class="tel-ref">
                     <img class="mensaje" src="https://84static.loadingplay.com/static/images/4dae91cc066249e9743a4249dfe15379_icono_mail.png?1">
                     <div class="mail-msg-contact">O puedes llamarnos!</div>
                     <div class="telefono-contact">+56 22 2190121</div> 
