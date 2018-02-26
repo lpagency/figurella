@@ -14,6 +14,12 @@
 <script type="text/javascript">
 
 
+    function llamar()
+    {
+        ga('call', 'event', 'contacto','envio-llamada', 'telefono');
+    }
+
+
     //Expresión para validar un correo electrónico
         var expr = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/;
         //Expresión para validar edad de 18 a 60 años
@@ -247,7 +253,7 @@
                 </a>
                </div>
                <div class="col-md-6 col-sm-6 col-xs-12 icono-contact" style="z-index:100;">
-                <a href="tel:+56222190121" type="telephone-event" onclick="ga('call', 'event', 'contacto','envio-llamada', 'telefono');">
+                <a href="tel:+56222190121" type="telephone-event" onclick="return llamar();">
                     <img class="mensaje" src="https://84static.loadingplay.com/static/images/4dae91cc066249e9743a4249dfe15379_icono_mail.png?1">
                     <div class="mail-msg-contact">O puedes llamarnos!</div>
                     <div class="telefono-contact">+56 22 2190121</div> 
