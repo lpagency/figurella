@@ -272,6 +272,12 @@ img.desaturada {
     height: auto;
 }
 
+.tel{
+    width: 100%;
+    background: none;
+    border: none;
+}
+
 .text_planes{
     position: absolute;
     /* top: 100%; */

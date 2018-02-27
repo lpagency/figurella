@@ -12,13 +12,16 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 
 <script type="text/javascript">
-
-
-    function llamar()
+    $(document).ready(function()
     {
-        ga('call', 'event', 'contacto','envio-llamada', 'telefono');
-    }
+        $(document).on("click", ".tel", function()
+        {
+            location.href = "tel:+56222190121";
+        });
+    });
+</script>
 
+<script type="text/javascript">
 
     //Expresión para validar un correo electrónico
         var expr = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/;
@@ -253,11 +256,11 @@
                 </a>
                </div>
                <div class="col-md-6 col-sm-6 col-xs-12 icono-contact" style="z-index:100;">
-                <a href="tel:+56222190121" type="telephone-event" onclick="return llamar();">
+                <button class="tel" type="telephone-event" onclick="ga('call', 'event', 'contacto','envio-llamada', 'telefono');">
                     <img class="mensaje" src="https://84static.loadingplay.com/static/images/4dae91cc066249e9743a4249dfe15379_icono_mail.png?1">
                     <div class="mail-msg-contact">O puedes llamarnos!</div>
                     <div class="telefono-contact">+56 22 2190121</div> 
-                </a>
+                </button>
                </div>
                 <div class="text-one {{editabletext}}" text-id="{{ site.name + '_contact4' }}"> {{ read_text(site.name +  '_contact4') }}</div>
                 <div class="text-two {{editabletext}}" text-id="{{ site.name + '_contact5' }}"> {{ read_text(site.name +  '_contact5') }}</div>
