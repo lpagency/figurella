@@ -3000,6 +3000,7 @@ textarea.fuc{
     object-fit: contain;
     position: absolute;
     left: 0;
+    top: -7px;
     float: inherit;
 }
 .mail-msg-contact{

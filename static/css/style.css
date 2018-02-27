@@ -2193,6 +2193,14 @@ input::-webkit-input-placeholder {
 
 }
 @media (max-width: 414px){
+
+    .tel{
+        height: 50px;
+        width: 100%;
+        background: none;
+        border: none;
+    }
+
     .box-locales {
     width: 100%;
     position: relative;
