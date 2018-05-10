@@ -1,24 +1,22 @@
 html {
   font-size: 14px;
-  
   height: 100%; 
 }
 
-a  {   
- text-decoration:none;   
+a {
+ text-decoration:none;
  color: #3f4271;
-}  
+}
 
 a:hover, a:focus {
     color: #2a6496;
     text-decoration: none;
-} 
+}
 
 html, body {
     height: 100%;
     font-family:flama;
     color:rgba(128, 128, 128, 0.85);
-   /* color:gray;*/
 }
 
 div.upload input, div.image-upload input {
@@ -36,9 +34,29 @@ div.upload input, div.image-upload input {
     overflow: hidden;
 }
 
-.text_new_home{
+.banner-slide
+{
+    height: 400px;
+    width:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+div#main_area
+{
+    margin-top: 25px;
+}
+
+.small-banner
+{
+    margin-bottom: 25px;
+    height: 106px;
+}
+
+.text_new_home
+{
     text-align: center;
-    /* color: #919190; */
     width: 100%;
     padding-left: 3px;
     position: relative;
@@ -51,24 +69,17 @@ div.upload input, div.image-upload input {
     margin-bottom: 22px;
     line-height: 37px;
     overflow: hidden;
-    /*height: 79px;*/
 }
 
 .input-group{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
 .cont-art{
     margin-top: 14%;
 }
-/*.carousel img {
-    margin: 0 auto;
-    width: 100%;
-    object-fit: cover;
-    height: 530px;
-}*/
 
-/*MAIN BANNER*/
 .h-banner-one{
     height: 641px;
 }
@@ -1152,18 +1163,19 @@ content: url(https://7static.loadingplay.com/static/images/62898b42a2193c6d2aeaa
     height: 600px;
 }
 
-.hide-bullets {
+.hide-bullets
+{
     list-style: none;
-    margin-left: -40px;
     margin-top: 20px;
     bottom: 0px;
     position: absolute;
     float: right;
-    padding-left: 200px;
-    padding-right: 191px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-.thumbnail {
+.thumbnail
+{
     display: block;
     padding: 0px;
     margin-bottom: 20px;
@@ -1174,9 +1186,8 @@ content: url(https://7static.loadingplay.com/static/images/62898b42a2193c6d2aeaa
     -webkit-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    width: 119%;
+    width: 100%;
     position: relative;
-    left: 400px;
     z-index: 1000;
 }
 
@@ -1188,16 +1199,16 @@ content: url(https://7static.loadingplay.com/static/images/62898b42a2193c6d2aeaa
     object-fit: cover;
 }
 
-.carousel-control {
+.carousel-control
+{
     position: absolute;
-    top: 436px;
+    top: 325px;
     bottom: 0px !important;
     left: 88px !important;
-    width: 4% !important;
+    width: 8% !important;
     font-size: 11px;
     color: #fff;
     text-align: center;
-    /* text-shadow: 0 0px 0px rgba(0,0,0,.6); */
     filter: alpha(opacity=50);
     opacity: .5;
     height: 53px !important;
@@ -1206,16 +1217,16 @@ content: url(https://7static.loadingplay.com/static/images/62898b42a2193c6d2aeaa
     z-index: 1000;
 }
 
-.carousel-control.rig {
+.carousel-control.rig
+{
     position: absolute;
-    top: 436px; 
+    top: 325px;
     bottom: 0px !important;
     left: 151px !important;
-    width: 4% !important;
+    width: 8% !important;
     font-size: 11px;
     color: #fff;
     text-align: center;
-    /* text-shadow: 0 0px 0px rgba(0,0,0,.6); */
     filter: alpha(opacity=50);
     opacity: .5;
     height: 53px !important;
@@ -1236,17 +1247,20 @@ content: url(https://7static.loadingplay.com/static/images/62898b42a2193c6d2aeaa
     margin-top: -9px;
 }
 
-.hover-slider .mak{
+.hover-slider .mak
+{
     background: rgba(0, 0, 0, 0.08);
-    height: 100%;
+    height: 400px;
     width: 100%;
     opacity: 0;
     position: relative;
     bottom: 514px;
     overflow: hidden;
+    top: -400px;
 }
 
-.hover-slider:hover .mak {
+.hover-slider:hover .mak
+{
     opacity: 1;
 }
 
