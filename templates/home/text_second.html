@@ -1,13 +1,42 @@
 <section class="h_second_text pad0">
-    <div class="col-md-12 col-sm-12 box">
-        <h1 class="text_main two text-center {{editabletext}}" text-id="{{ site.name + '_text_second' }}"> {{ read_text(site.name +  '_text_second') }}
-        </h1>
-    </div>
-</section>
-
-<section class="h_second_text pad0">
-    <div class="col-md-12 col-sm-12 box">
-        <h1 class="text_new_home text-center {{editabletext}}" text-id="{{ site.name + '_text_second_new_home' }}"> {{ read_text(site.name +  '_text_second_new_home') }}
-        </h1>
+    <div class="container">
+        <div class="col-md-12 col-sm-12 box">
+            <h1 class="text_main two text-center {{editabletext}}" text-id="{{ site.name + '_text_second' }}"> {{ read_text(site.name +  '_text_second') }}
+            </h1>
+        </div>
+        <div class="col-md-offset-1 col-md-10 col-sm-12 banner-2">
+            {% if is_admin %}
+                <div class="image-upload visible-movil" style="left: 50px;">
+                    <label for="img_banner_inv">
+                        <img class="change-image" src="https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png" onmouseover="this.src='https://7static.loadingplay.com/static/images/f2e626ad62e2c957b3708a27e55f4b03_btn-edit-hover.png';" onmouseout="this.src='https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png'">
+                    </label>
+                    <input type="file" class="editableimage" image-id="{{ site.name }}_img_banner_inv" name="image" id="img_banner_inv">
+                </div>
+            {% end %}
+            <a id="{{ site.name + '_img_banner_inv' }}" href="{{ read_link(site.name + '_img_banner_inv') }}">
+                <img class="decolor img_banner2 img-responsive" id="{{ site.name }}_img_banner_inv" src="{{ read_image(site.name + '_img_banner_inv', 1) }}" onload="this.onload='';this.src='{{ read_image(site.name + '_img_banner_inv',500) }}'" alt="item" style=" ">
+            </a>
+            <!--editable link-->
+            {% if is_admin %}
+                <img class="change-image editablelink" link-id="{{ site.name + '_img_banner_inv' }}" content="{{ read_link(site.name + '_img_banner_inv') }}" src="https://7static.loadingplay.com/static/images/41664a512d21bc8d33cfea94bce3b63e_link.png" style="top: 24px;position: relative;z-index: 2;">
+            {% end %}
+        </div>
+        <div class="col-md-offset-1 col-md-10 col-sm-12 banner-2">
+            {% if is_admin %}
+                <div class="image-upload visible-movil" style="left: 50px;">
+                    <label for="img_banner_inv_2">
+                        <img class="change-image" src="https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png" onmouseover="this.src='https://7static.loadingplay.com/static/images/f2e626ad62e2c957b3708a27e55f4b03_btn-edit-hover.png';" onmouseout="this.src='https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png'">
+                    </label>
+                    <input type="file" class="editableimage" image-id="{{ site.name }}_img_banner_inv_2" name="image" id="img_banner_inv_2">
+                </div>
+            {% end %}
+            <a id="{{ site.name + '_img_banner_inv_2' }}" href="{{ read_link(site.name + '_img_banner_inv_2') }}">
+                <img class="decolor img_banner2 img-responsive" id="{{ site.name }}_img_banner_inv_2" src="{{ read_image(site.name + '_img_banner_inv_2', 1) }}" onload="this.onload='';this.src='{{ read_image(site.name + '_img_banner_inv_2',500) }}'" alt="item" style=" ">
+            </a>
+            <!--editable link-->
+            {% if is_admin %}
+                <img class="change-image editablelink" link-id="{{ site.name + '_img_banner_inv_2' }}" content="{{ read_link(site.name + '_img_banner_inv_2') }}" src="https://7static.loadingplay.com/static/images/41664a512d21bc8d33cfea94bce3b63e_link.png" style="top: 24px;position: relative;z-index: 2;">
+            {% end %}
+        </div>
     </div>
 </section>
