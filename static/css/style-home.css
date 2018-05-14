@@ -85,6 +85,11 @@ div#main_area
     -moz-osx-font-smoothing: grayscale;
 }
 
+.video-frame
+{
+    background-color: #f9f9f9;
+}
+
 .cont-art
 {
     margin-top: 14%;
@@ -239,7 +244,7 @@ div#main_area
     margin: auto;
     top: 0px;
     margin: 0 auto!important;
-    margin-bottom: 104px!important;
+    margin-bottom: 20px!important;
     margin-top: 15px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
@@ -852,7 +857,7 @@ p
     height: 100%;
     min-height: 260px;
     margin-bottom: 0px;
-    margin-top: -80px;
+    margin-top: 60px;
 }
 
 .img-box-gra
@@ -1551,7 +1556,6 @@ textarea.fuc::-webkit-input-placeholder
         height: 100%;
         min-height: 260px;
         margin-bottom: 70px;
-        margin-top: -80px;
     }
 
     .hover-slider .mak
@@ -1706,6 +1710,11 @@ textarea.fuc::-webkit-input-placeholder
         margin-bottom: 73px;
     }
 
+    .no-padding-mobile
+    {
+        padding: 0px 5px;
+    }
+
     .small-banner
     {
         height: 200px;
@@ -1722,17 +1731,16 @@ textarea.fuc::-webkit-input-placeholder
         height: 100%;
         min-height: 290px;
         margin-bottom: 40px;
-        margin-top: -80px;
     }
 
     .text_main.two
     {
-        width: 96%;
+        width: 100%;
     }
 
     .banner-2
     {
-        padding: 0px 30px;
+        padding: 0px 15px;
     }
 
     .no-padding
@@ -3085,6 +3093,22 @@ textarea.fuc::-webkit-input-placeholder
 
 @media (max-width: 414px)
 {
+    .no-padding-mobile
+    {
+        padding: 0px 0px;
+    }
+
+    .text_main
+    {
+        width: 90%;
+        margin-bottom: 20px !important;
+    }
+
+    .small-banner
+    {
+        height: 150px;
+    }
+
     .cuadro-layer
     {
         width: 100%;
@@ -3157,7 +3181,7 @@ textarea.fuc::-webkit-input-placeholder
     {
         font-size: 1.5rem;
         width: 92%;
-        margin-bottom: 0px !important;
+        margin-bottom: 60px !important;
         line-height: 36px;
         margin-top: 4px!important;
     }
@@ -3165,7 +3189,7 @@ textarea.fuc::-webkit-input-placeholder
     .contenedor-box
     {
         margin-bottom: -68px;
-        margin-top: 0px;
+        margin-top: 60px;
     }
 
     .text_group2
@@ -3285,8 +3309,8 @@ textarea.fuc::-webkit-input-placeholder
 
     .text_main.two
     {
-        margin-bottom: 40px!important;
-        margin-top: 40px !important;
+        margin-bottom: 0px!important;
+        margin-top: 80px !important;
     }
 
     .img_banner3
@@ -3301,6 +3325,8 @@ textarea.fuc::-webkit-input-placeholder
     .banner-2 
     {
         height: 260px;
+        padding: 0px 15px;
+        margin-top: 60px;
     }
 
     .contenedor-bot
@@ -3393,6 +3419,11 @@ textarea.fuc::-webkit-input-placeholder
         object-fit: contain;
         float: right;
     }
+
+    .section-pre-footer
+    {
+        margin-top: 80px;
+    }
 }
 
 @media (max-width: 400px)
@@ -3469,12 +3500,6 @@ textarea.fuc::-webkit-input-placeholder
 
 @media (max-width: 375px)
 {
-    .text_main
-    {
-        width: 82%;
-        margin-bottom: 20px !important;
-    }
-
     .cuadro-white
     {
         width: 276px;
@@ -3617,16 +3642,6 @@ textarea.fuc::-webkit-input-placeholder
     .small-banner
     {
         height: 100px;
-    }
-
-    .no-padding-mobile
-    {
-        padding: 0px 0px;
-    }
-
-    .banner-2
-    {
-        padding: 0px 15px;
     }
 
     .text_main.two
