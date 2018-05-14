@@ -840,9 +840,8 @@ p
 
 .box-gris:hover
 {
-    border: 1px solid gray;
     color: rgba(167, 95, 0, 0.56);
-    background-color: white;
+    background-color: #fcf8fa;
 }
 
 .section-banner
@@ -946,26 +945,6 @@ hr.gris
 {
     width: 56%;
     object-fit: cover;
-}
-
-.img-box-bot:hover
-{
-    content: url(https://84static.loadingplay.com/static/images/b528f91cca399b931e984692ab64828f_healthhover.png);
-}
-
-.img-box-bot-2:hover
-{
-    content: url(https://84static.loadingplay.com/static/images/bbf727bd0b177ad779e6eba46a3c68e8_curvehover.png);
-}
-
-.img-box-bot-3:hover
-{
-    content: url(https://84static.loadingplay.com/static/images/078b517d4c8475b71251da4cebddfc31_hearthover.png);
-}
-
-.img-box-bot-4:hover
-{
-    content: url(https://7static.loadingplay.com/static/images/62898b42a2193c6d2aeaaeffe6408b50_chrono-hover.png);
 }
 
 .text-a
@@ -1222,8 +1201,7 @@ hr.gris
 
 .min:hover
 {
-    border: 1px solid gray;
-    color: rgba(167, 95, 0, 0.56);
+    background-color: rgba(213, 159, 187, 0.08);
     height: 260px;
 }
 
@@ -1345,11 +1323,6 @@ hr.gris
     margin-bottom: -422px;
 }
 
-.img-box-gra:hover
-{
-    content: url(https://84static.loadingplay.com/static/images/b528f91cca399b931e984692ab64828f_healthhover.png);
-}
-
 .img-box-gra-2
 {
     width: 30%;
@@ -1362,16 +1335,6 @@ hr.gris
     width: 30%;
     margin-top: 45px;
     object-fit: cover;
-}
-
-.img-box-gra-2:hover
-{
-    content: url(https://84static.loadingplay.com/static/images/bbf727bd0b177ad779e6eba46a3c68e8_curvehover.png);
-}
-
-.img-box-gra-3:hover
-{
-    content: url(https://84static.loadingplay.com/static/images/078b517d4c8475b71251da4cebddfc31_hearthover.png);
 }
 
 .cuadro-layer
