@@ -1692,6 +1692,7 @@ textarea.fuc::-webkit-input-placeholder
     {
         height: 100%;
     }
+
     .pad-footer-3
     {
         padding-left: 30px;
@@ -1986,10 +1987,12 @@ textarea.fuc::-webkit-input-placeholder
         height: inherit;
         display: table;
     }
+
     .margin_third
     {
         margin-top: 80px;
     }
+
     .cont-art
     {
         margin-top: 14%;
@@ -1999,6 +2002,7 @@ textarea.fuc::-webkit-input-placeholder
     {
         height: 620px;
     }
+
     #footer
     {
         height: auto;
@@ -2047,7 +2051,8 @@ textarea.fuc::-webkit-input-placeholder
 
     .text_group2
     {
-        height: 260px; // margin-top:50px;
+        height: 260px;
+        margin-top:50px;
         overflow: hidden;
     }
 
@@ -2073,6 +2078,7 @@ textarea.fuc::-webkit-input-placeholder
         overflow: hidden;
         height: 75px;
     }
+
     .text_nosotros8
     {
         height: 271px;
@@ -3096,6 +3102,7 @@ textarea.fuc::-webkit-input-placeholder
         position: relative;
         top: 398px;
     }
+
     .box-gris
     {
         height: 300px;
@@ -3126,6 +3133,7 @@ textarea.fuc::-webkit-input-placeholder
         width: 100%;
         margin-top: 70px;
     }
+
     .container-fluid.mo
     {
         padding-right: 8px;
@@ -3354,16 +3362,19 @@ textarea.fuc::-webkit-input-placeholder
         left: 0px;
         margin-top: -69px;
     }
+
     .hov-2:hover
     {
         left: 0px;
         margin-top: -69px;
     }
+
     .hov
     {
         left: 0px;
         margin-top: -30px;
     }
+
     .hov:hover
     {
         left: 0px;
@@ -3403,16 +3414,19 @@ textarea.fuc::-webkit-input-placeholder
         left: 0px;
         margin-top: -69px;
     }
+
     .hov-2:hover
     {
         left: 0px;
         margin-top: -69px;
     }
+
     .hov
     {
         left: 0px;
         margin-top: -33px;
     }
+
     .hov:hover
     {
         left: 0px;
@@ -3579,18 +3593,6 @@ textarea.fuc::-webkit-input-placeholder
 
 @media (max-width: 320px)
 {
-    .ros
-    {
-        position: relative;
-        text-align: left;
-        left: 37px;
-        float: left;
-        top: 49px;
-        color: white;
-        font-size: 12px;
-        font-weight: 200;
-    }
-
     .text_group1
     {
         font-size: 2.0rem;
