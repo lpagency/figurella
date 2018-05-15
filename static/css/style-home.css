@@ -1440,6 +1440,18 @@ hr.gris
     right: 16px;
 }
 
+.link-editable
+{
+    top: 150px;
+    z-index: 2;
+}
+
+.link-editable-2
+{
+    top: 300px;
+    z-index: 2;
+}
+
 .telefono-contact
 {
     color: rgba(128, 128, 128, 0.63);
