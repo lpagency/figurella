@@ -53,7 +53,7 @@ div.image-upload input
 
 div#main_area
 {
-    margin-top: 25px;
+    margin-top: 42px;
 }
 
 .small-banner
@@ -1271,7 +1271,7 @@ hr.gris
     color: black;
     background-image: none !important;
     position: absolute;
-    top: 185px;
+    top: 210px;
     bottom: 0px !important;
     left: 0px !important;
     width: 8% !important;
@@ -1280,6 +1280,12 @@ hr.gris
     opacity: 1;
     height: 53px !important;
     z-index: 1000;
+}
+
+.left-arrow
+{
+    -webkit-transform: translateY(5.5vw) scaleX(-1);
+    -webkit-transform: translateY(-50%) scaleX(-1);
 }
 
 .carousel-control.rig
