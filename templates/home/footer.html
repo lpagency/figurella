@@ -96,9 +96,11 @@
                 </li>
                 <li class="pad0">
                     {% if user is None %}
-                    <a href="{{ site_base }}/auth/login" class="footer_text footer_loading ">LOGIN</a> {% else %}
-                    <a href="{{ site_base }}/auth/logout" class="footer_text footer_loading">
-                        LOGOUT</a> {% end %}
+                        <a href="{{ site_base }}/auth/login" class="footer_text footer_loading ">LOGIN</a>
+                    {% else %}
+                        <a href="{{ site_base }}/auth/logout" class="footer_text footer_loading">
+                        LOGOUT</a>
+                    {% end %}
                 </li>
             </ul>
         </div>
