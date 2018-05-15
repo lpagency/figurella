@@ -84,7 +84,7 @@
             </ul>
         </div>
     </div>
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 pad0" style="width: 100%;">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 pad0 login-footer">
         <div class="text-right">
             <div class="clearfix"></div>
             <ul class="no-dot footer-sign">
@@ -96,9 +96,11 @@
                 </li>
                 <li class="pad0">
                     {% if user is None %}
-                    <a href="{{ site_base }}/auth/login" class="footer_text footer_loading ">LOGIN</a> {% else %}
-                    <a href="{{ site_base }}/auth/logout" class="footer_text footer_loading">
-                        LOGOUT</a> {% end %}
+                        <a href="{{ site_base }}/auth/login" class="footer_text footer_loading ">LOGIN</a>
+                    {% else %}
+                        <a href="{{ site_base }}/auth/logout" class="footer_text footer_loading">
+                        LOGOUT</a>
+                    {% end %}
                 </li>
             </ul>
         </div>

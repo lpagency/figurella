@@ -60,6 +60,13 @@ div#main_area
 {
     margin-bottom: 25px;
     height: 106px;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+
+.margin-banner
+{
+    margin-bottom: 50px;
 }
 
 .text_new_home
@@ -1433,6 +1440,18 @@ hr.gris
     right: 16px;
 }
 
+.link-editable
+{
+    top: 150px;
+    z-index: 2;
+}
+
+.link-editable-2
+{
+    top: 300px;
+    z-index: 2;
+}
+
 .telefono-contact
 {
     color: rgba(128, 128, 128, 0.63);
@@ -1501,6 +1520,42 @@ textarea.fuc::-webkit-input-placeholder
     color: #EE73AB !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 1330px)
+{
+    .navbar-header
+    {
+        margin: 0px 0% 0px 2%;
+    }
+
+    #footer
+    {
+        margin: 0% 15%;
+    }
+
+    .login-footer
+    {
+        width: 94%;
+    }
+}
+
+@media screen and (max-width: 1281px)
+{
+    .navbar-header
+    {
+        margin: 0%;
+    }
+
+    #footer
+    {
+        margin: 0% 13%;
+    }
+
+    .login-footer
+    {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:1242px)
@@ -1696,6 +1751,11 @@ textarea.fuc::-webkit-input-placeholder
     .text_main
     {
         width: 96%;
+    }
+
+    #footer
+    {
+        margin: 0;
     }
 
     .contenedor-box
