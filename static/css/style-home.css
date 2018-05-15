@@ -1741,6 +1741,11 @@ textarea.fuc::-webkit-input-placeholder
         width: 96%;
     }
 
+    #footer
+    {
+        margin: 0;
+    }
+
     .contenedor-box
     {
         width: 100%;
