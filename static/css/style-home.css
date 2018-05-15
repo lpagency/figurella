@@ -62,6 +62,7 @@ div#main_area
     height: 106px;
     background-size: contain !important;
     background-repeat: no-repeat !important;
+    position: relative;
 }
 
 .margin-banner
@@ -1438,18 +1439,6 @@ hr.gris
     font-size: 23px;
     margin-bottom: 0px;
     right: 16px;
-}
-
-.link-editable
-{
-    top: 150px !important;
-    z-index: 2 !important;
-}
-
-.link-editable-2
-{
-    top: 300px !important;
-    z-index: 2 !important;
 }
 
 .telefono-contact
