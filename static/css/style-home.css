@@ -1511,6 +1511,24 @@ textarea.fuc::-webkit-input-placeholder
     -moz-osx-font-smoothing: grayscale;
 }
 
+@media screen and (max-width: 1366px)
+{
+    .navbar-header
+    {
+        margin: 0px 0% 0px 3%;
+    }
+
+    #footer
+    {
+        margin: 0% 16%;
+    }
+
+    .login-footer
+    {
+        width: 93%;
+    }
+}
+
 @media screen and (max-width: 1330px)
 {
     .navbar-header
