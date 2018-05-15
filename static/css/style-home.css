@@ -1696,6 +1696,16 @@ textarea.fuc::-webkit-input-placeholder
         line-height: 37px;
     }
 
+    .banner-slide
+    {
+        height: 307px;
+    }
+
+    .small-banner
+    {
+        height: 85px;
+    }
+
     .text_group3-dif
     {
         position: relative;
