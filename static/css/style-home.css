@@ -1442,14 +1442,14 @@ hr.gris
 
 .link-editable
 {
-    top: 150px;
-    z-index: 2;
+    top: 150px !important;
+    z-index: 2 !important;
 }
 
 .link-editable-2
 {
-    top: 300px;
-    z-index: 2;
+    top: 300px !important;
+    z-index: 2 !important;
 }
 
 .telefono-contact
