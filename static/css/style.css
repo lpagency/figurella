@@ -2713,6 +2713,11 @@ hr.inter
         line-height: 37px;
     }
 
+    .cel
+    {
+        height: 176px !important;
+    }
+
     .img_detail_planes
     {
         width: 100%;

@@ -3624,6 +3624,22 @@ textarea.fuc::-webkit-input-placeholder
         display: inherit;
     }
 
+    .hover-slider .mak
+    {
+        height: 210px;
+        top: -224px;
+    }
+
+    .title-box-gris
+    {
+        font-size: 12px;
+    }
+
+    .text-a
+    {
+        font-size: 22px;
+    }
+
     .cuadro2-white
     {
         width: 275px;
@@ -3659,6 +3675,11 @@ textarea.fuc::-webkit-input-placeholder
         position: relative;
         top: 392px;
     }
+
+    .carousel-control.rig
+    {
+        left: 276px !important;
+    }
 }
 
 @media (max-width: 360px)
@@ -3667,6 +3688,17 @@ textarea.fuc::-webkit-input-placeholder
     {
         width: 264px;
         display: inherit;
+    }
+
+    .carousel-control.rig
+    {
+        left: 260px !important;
+    }
+
+    .hover-slider .mak
+    {
+        height: 199px;
+        top: -218px;
     }
 
     .cuadro-white
@@ -3729,8 +3761,8 @@ textarea.fuc::-webkit-input-placeholder
         font-size: 1.8rem;
         width: 100%;
         line-height: 36px;
-        margin-top: 4px!important;
-        margin-bottom: -8px!important;
+        margin-top: -26px!important;
+        margin-bottom: 8px!important;
     }
 }
 
@@ -3739,6 +3771,35 @@ textarea.fuc::-webkit-input-placeholder
     .text_group1
     {
         font-size: 2.0rem;
+    }
+
+    .carousel-control
+    {
+        top: 85px;
+    }
+
+    .text-a
+    {
+        font-size: 18px;
+        height: 60px;
+        margin-top: 0px;
+    }
+
+    .min
+    {
+        height: 165px;
+    }
+
+    .carousel-control.rig
+    {
+        top: 60px;
+        left: 221px !important;
+    }
+
+    .hover-slider .mak
+    {
+        height: 170px;
+        top: -177px;
     }
 
     .text_group3
@@ -3754,17 +3815,25 @@ textarea.fuc::-webkit-input-placeholder
 
     .text_main
     {
-        margin-bottom: 15px!important;
+        margin-bottom: 25px !important;
+        margin-top: 0px !important
     }
 
     .small-banner
     {
-        height: 100px;
+        height: 109px;
     }
 
     .text_main.two
     {
         width: 100%;
+        margin-bottom: 15px!important;
+        margin-top: 15px !important;
+    }
+
+    .margin-banner
+    {
+        margin-bottom: 25px;
     }
 
     .cuadro-layer
@@ -3774,6 +3843,21 @@ textarea.fuc::-webkit-input-placeholder
         background-color: rgb(185, 91, 140);
         position: relative;
         top: 313px;
+    }
+
+    .banner-2
+    {
+        height: 175px;
+    }
+
+    .img_banner2
+    {
+        height: 175px;
+    }
+
+    .video-frame
+    {
+        height: 145px;
     }
 
     .cuadro-layer-2
