@@ -1938,7 +1938,8 @@ hr.inter
 {
     .height-content
     {
-        width: 100%; // height: 1910px;
+        width: 100%;
+        height: 1910px;
     }
 
     .h_planes_2
