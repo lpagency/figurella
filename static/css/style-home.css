@@ -1598,7 +1598,7 @@ textarea.fuc::-webkit-input-placeholder
     {
         background: rgba(0, 0, 0, 0.08);
         height: 58%;
-        width: 101%;
+        width: 100%;
         position: relative;
         top: -309px;
         overflow: hidden;
@@ -1648,7 +1648,7 @@ textarea.fuc::-webkit-input-placeholder
         position: absolute;
         top: 120px;
         bottom: 0px !important;
-        left: 663px !important;
+        left: 498px !important;
         width: 4% !important;
         font-size: 11px;
         color: #fff;
@@ -1752,6 +1752,16 @@ textarea.fuc::-webkit-input-placeholder
 
 @media (max-width: 991px)
 {
+    .hover-slider .mak
+    {
+        width: 101%;
+    }
+
+    .carousel-control.rig
+    {
+        left: 663px !important;
+    }
+
     .box-gris
     {
         margin-bottom: 73px;
@@ -3154,6 +3164,7 @@ textarea.fuc::-webkit-input-placeholder
     .no-padding-mobile
     {
         padding: 0px 0px;
+        height: 118px;
     }
 
     .text_main
@@ -3187,8 +3198,36 @@ textarea.fuc::-webkit-input-placeholder
 
     .box-gris
     {
-        height: 300px;
-        margin-bottom: 44px;
+        height: 118px;
+        margin-bottom: 4px;
+        background-color: transparent;
+    }
+
+    .img-box-gra
+    {
+        width: 75%;
+        margin-top: 0px;
+    }
+
+    .img-box-gra-2
+    {
+        width: 75%;
+        margin-top: 0px;
+    }
+
+    .img-box-gra-3
+    {
+        width: 75%;
+        margin-top: 0px;
+    }
+
+    .title-box-gris
+    {
+        height: 29px;
+        margin-top: 0px;
+        font-size: 17px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .h_first_text_new_2
@@ -3233,21 +3272,35 @@ textarea.fuc::-webkit-input-placeholder
         position: relative;
         height: 460px;
         margin-bottom: -460px;
+        width: 100%;
     }
 
     .text_main
     {
         font-size: 1.5rem;
         width: 92%;
-        margin-bottom: 60px !important;
+        margin-bottom: 30px !important;
         line-height: 36px;
         margin-top: 4px!important;
     }
 
+    .video-frame
+    {
+        background-color: transparent;
+        padding: 0px;
+        height: 200px;
+    }
+
     .contenedor-box
     {
-        margin-bottom: -68px;
-        margin-top: 60px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+        min-height: 118px;
+    }
+
+    .lower
+    {
+        right: 33px;
     }
 
     .text_group2
@@ -3368,7 +3421,7 @@ textarea.fuc::-webkit-input-placeholder
     .text_main.two
     {
         margin-bottom: 0px!important;
-        margin-top: 80px !important;
+        margin-top: 30px !important;
     }
 
     .img_banner3
@@ -3384,7 +3437,8 @@ textarea.fuc::-webkit-input-placeholder
     {
         height: 260px;
         padding: 0px 15px;
-        margin-top: 60px;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     .contenedor-bot
@@ -3480,7 +3534,7 @@ textarea.fuc::-webkit-input-placeholder
 
     .section-pre-footer
     {
-        margin-top: 80px;
+        margin-top: 10px;
     }
 }
 
