@@ -2776,9 +2776,9 @@ textarea.fuc::-webkit-input-placeholder
     .carousel-control
     {
         position: absolute;
-        top: 454px;
+        top: 115px;
         bottom: 0px !important;
-        left: 16px !important;
+        left: 0px !important;
         width: 40px !important;
         font-size: 11px;
         color: #fff;
@@ -2786,17 +2786,17 @@ textarea.fuc::-webkit-input-placeholder
         filter: alpha(opacity=50);
         opacity: .5;
         height: 53px !important;
-        border: 1px solid white !important;
-        background: white !important;
+        border: none !important;
+        background: transparent !important;
         z-index: 1000;
     }
 
     .carousel-control.rig
     {
         position: absolute;
-        top: 454px;
+        top: 88px;
         bottom: 0px !important;
-        left: 94px !important;
+        left: 315px !important;
         width: 40px !important;
         font-size: 11px;
         color: #fff;
@@ -2804,8 +2804,8 @@ textarea.fuc::-webkit-input-placeholder
         filter: alpha(opacity=50);
         opacity: .5;
         height: 53px !important;
-        border: 1px solid white !important;
-        background: white !important;
+        border: none !important;
+        background: transparent !important;
         z-index: 1000;
     }
 }
@@ -3463,11 +3463,12 @@ textarea.fuc::-webkit-input-placeholder
     .hover-slider .mak
     {
         background: rgba(0, 0, 0, 0.08);
-        height: 100%;
+        height: 236px;
+        top: -235px;
         width: 100%;
-        opacity: 0;
+        opacity: 1;
         position: relative;
-        bottom: 476px;
+        bottom: 0px;
         overflow: hidden;
     }
 
