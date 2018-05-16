@@ -1597,12 +1597,17 @@ textarea.fuc::-webkit-input-placeholder
     .hover-slider .mak
     {
         background: rgba(0, 0, 0, 0.08);
-        height: 100%;
-        width: 100%;
-        opacity: 0;
+        height: 58%;
+        width: 101%;
         position: relative;
-        bottom: 531px;
+        top: -309px;
         overflow: hidden;
+        opacity: 1;
+    }
+
+    .logo-2
+    {
+        left: 10px;
     }
 
     .hover-slider
@@ -1625,9 +1630,9 @@ textarea.fuc::-webkit-input-placeholder
     .carousel-control
     {
         position: absolute;
-        top: 320px;
+        top: 145px;
         bottom: 0px !important;
-        left: 60px !important;
+        left: 0px !important;
         width: 4% !important;
         font-size: 11px;
         color: #fff;
@@ -1635,17 +1640,15 @@ textarea.fuc::-webkit-input-placeholder
         filter: alpha(opacity=50);
         opacity: .5;
         height: 53px !important;
-        border: 1px solid white !important;
-        background: white !important;
         z-index: 1000;
     }
 
     .carousel-control.rig
     {
         position: absolute;
-        top: 320px;
+        top: 120px;
         bottom: 0px !important;
-        left: 111px !important;
+        left: 663px !important;
         width: 4% !important;
         font-size: 11px;
         color: #fff;
@@ -1653,8 +1656,6 @@ textarea.fuc::-webkit-input-placeholder
         filter: alpha(opacity=50);
         opacity: .5;
         height: 53px !important;
-        border: 1px solid white !important;
-        background: white !important;
         z-index: 1000;
     }
 
@@ -1763,7 +1764,7 @@ textarea.fuc::-webkit-input-placeholder
 
     .small-banner
     {
-        height: 200px;
+        height: 286px;
     }
 
     .text_main
@@ -1774,6 +1775,12 @@ textarea.fuc::-webkit-input-placeholder
     #footer
     {
         margin: 0;
+        padding: 0px 32px;
+    }
+
+    .footer_text
+    {
+        font-size: 17px;
     }
 
     .contenedor-box
