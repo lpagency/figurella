@@ -3785,6 +3785,11 @@ textarea.fuc::-webkit-input-placeholder
         margin-top: 0px;
     }
 
+    .text_main
+    {
+        width: 90%;
+    }
+
     .min
     {
         height: 165px;
