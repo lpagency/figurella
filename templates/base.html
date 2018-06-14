@@ -11,6 +11,26 @@
     <meta name="author" content="loadingplay.com">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="google-site-verification" content="QRgOzEmygkGa_0dGcM9AMY9y_OqkVC9T02iQDWMoatA" />
+
+    <link rel="icon" type="image/ico" href="{{ site_base }}/{{ nocache_static }}/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ site_base }}/{{ nocache_static }}/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ site_base }}/{{ nocache_static }}/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ site_base }}/{{ nocache_static }}/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ site_base }}/{{ nocache_static }}/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ site_base }}/{{ nocache_static }}/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ site_base }}/{{ nocache_static }}/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ site_base }}/{{ nocache_static }}/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ site_base }}/{{ nocache_static }}/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site_base }}/{{ nocache_static }}/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="{{ site_base }}/{{ nocache_static }}/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site_base }}/{{ nocache_static }}/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ site_base }}/{{ nocache_static }}/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site_base }}/{{ nocache_static }}/favicon/favicon-16x16.png">
+    <link rel="manifest" href="{{ site_base }}/{{ nocache_static }}/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#EA4B96">
+    <meta name="msapplication-TileImage" content="{{ site_base }}/{{ nocache_static }}/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#EA4B96">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300,400,600,600,700,700,800,800' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet"> -->
@@ -25,7 +45,7 @@
     <link rel="stylesheet" href="{{ site_base }}/{{ nocache_static }}/css/header_movil.css?2">
     <link rel="stylesheet" href="{{ site_base }}/{{ nocache_static }}/css/fancybox.css?2">
     <link rel="stylesheet" href="{{ site_base }}/{{ nocache_static }}/css/icon.css?2">
-    
+
     <link rel="stylesheet" href="{{ site_base }}/{{ nocache_static }}/fancybox/source/jquery.fancybox.css?v=2.1.5">
     <link rel="stylesheet" href="{{ site_base }}/common/css/ellipsis.css">
     <!-- desarrollo -->
@@ -113,7 +133,7 @@
     <!-- botón agregar -->
     <!-- header -->
 
-    {% include 'product/product_box.html' %} 
+    {% include 'product/product_box.html' %}
     {% include 'product/product_art.html' %}
 
     {% if is_admin %}
@@ -162,7 +182,7 @@
     <!-- {%!  end %} -->
     <script type="text/javascript" src="{{ site_base }}/common/js/page_editable.js"></script>
     <script type="text/javascript" src="{{ site_base }}/common/js/editableimage.js"></script>
-    
+
     <script type="text/javascript" src="{{ site_base }}/common/js/jquery.cookie.js"></script>
     <script type="text/javascript" src="{{ site_base }}/common/js/environment.detection.js"></script>
     <script type="text/javascript" src="{{ site_base }}/common/js/bower/bodegas.client/dist/bodegas.client.js"></script>
@@ -214,10 +234,10 @@
     <script type="text/javascript">
     $(document).ready(function() {
         /*
-        var aux = 0;                
+        var aux = 0;
         $(".btn-menu-bottom.btn-agregar-cont-principal.btn-new-content").on("click", function()
         {
-            
+
             if(aux == 0){
                 NProgress.start();
                 NProgress.set(0.65);
@@ -229,7 +249,7 @@
 
             aux++;
         });
-        
+
        });
         */
 
@@ -251,24 +271,24 @@
         ga('create', '{{ get_config("analytics") }}', 'auto');
         ga('send', 'pageview');
     </script>
-   
+
     <script type="text/javascript">
        jQuery(document).ready(function($) {
- 
+
         $('#myCarousel').carousel({
                 interval: 5000
         });
- 
+
         $('#carousel-text').html($('#slide-content-0').html());
- 
+
         //Handles the carousel thumbnails
        $('[id^=carousel-selector-]').click( function(){
             var id = this.id.substr(this.id.lastIndexOf("-") + 1);
             var id = parseInt(id);
             $('#myCarousel').carousel(id);
         });
- 
- 
+
+
         // When the carousel slides, auto update the text
         $('#myCarousel').on('slid.bs.carousel', function (e) {
                  var id = $('.item.active').data('slide-number');
@@ -297,11 +317,11 @@
         t.src=v;s=b.getElementsByTagName(e)[0];
         s.parentNode.insertBefore(t,s)}(window,document,'script',
         'https://connect.facebook.net/en_US/fbevents.js');
-         fbq('init', '1065414146927146'); 
+         fbq('init', '1065414146927146');
         fbq('track', 'PageView');
     </script>
     <noscript>
-        <img height="1" width="1" 
+        <img height="1" width="1"
         src="https://www.facebook.com/tr?id=1065414146927146&ev=PageView
         &noscript=1"/>
     </noscript>
