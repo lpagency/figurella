@@ -29,7 +29,7 @@
         'https://pay.loadingplay.com',
         'https://pay.loadingplay.com',
         'https://pay.loadingplay.com');
-    var app_public = $.environmentVar(37,37,37);
+    var app_public = $.environmentVar('figurella','figurella','figurella');
 
         $(document).ecommerce('product_detail', {
             'app_public' : app_public,
@@ -63,7 +63,7 @@
                          // $('.ellipsis').ellipsis();
                          $(".ellipsis").dotdotdot();
                      }
-                
+
             };
         };
     });
@@ -71,7 +71,7 @@
 </script>
 
 <script type="text/javascript">
-    //funcion para validar sucursal, y alerta 
+    //funcion para validar sucursal, y alerta
     function validarSucursal()
     {
         indice = document.getElementById("nationality").selectedIndex;
@@ -111,7 +111,7 @@
                 var asunto = $("#itSucursal").val();
 
                 var error_count = 0;
- 
+
                 // --- Condicionales anidados ----
                 //Si nombre está vacío
                 //Muestra el mensaje
@@ -181,7 +181,7 @@
                 {
                     return false;
                 }
- 
+
             });//click
         });//ready
 </script>
@@ -203,7 +203,7 @@
         <div class="title_descrip_detail1">
             <h5 class="descrip_detail1">{{! description }}</h5>
         </div>
-    </div> 
+    </div>
 </div>
 </script>
 
@@ -276,7 +276,7 @@
                 <div class="form-group">
                     <label for="nationality" class="cols-sm-2 control-label"></label>
                         <div class="cols-sm-10">
-                            <div class="input-group" style="width: 100%;"> 
+                            <div class="input-group" style="width: 100%;">
                                 <select class="form-control cuadro-form" name="nationality" id="nationality"  placeholder="Please select your Nationality">
                                     <option>Sucursal donde te quieres atender*</option>
                                     <option>Sucursal Vitacura </option>
@@ -286,11 +286,11 @@
                             </div>
                         </div>
                 </div>
-               
+
                 <div class="form-group">
                     <label for="nationality" class="cols-sm-2 control-label"></label>
                         <div class="cols-sm-10">
-                            <div class="input-group" style="width: 100%;"> 
+                            <div class="input-group" style="width: 100%;">
                                 <select class="form-control cuadro-form" name="nationality" id="nationality"  placeholder="Please select your Nationality">
                                     <option>Motivo</option>
                                     <option>Consulta </option>
@@ -315,7 +315,7 @@
 
 
                 <div class="form-group ">
-                    <button name="submit" id="bEnviar" type="submit" class="btn btn-enviar-detail login-button" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Email Sent">Enviar 
+                    <button name="submit" id="bEnviar" type="submit" class="btn btn-enviar-detail login-button" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Email Sent">Enviar
                     </button>
                 </div>
                 <input type="hidden" name="submitted" id="submitted3" value="true">
@@ -328,12 +328,12 @@
 {% end %}
 
 
-{% block body %} 
+{% block body %}
 {% if is_admin %}
 {% set editabletext = 'editabletext' %}
 {% else %}
 {% set editabletext = '' %}
-{% end %} 
+{% end %}
 
 
 <div id="content" class="container height-content pad0">

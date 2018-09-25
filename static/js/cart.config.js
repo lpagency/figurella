@@ -39,7 +39,7 @@ String.prototype.replaceAll = function(search, replacement) {
     return target.split(search).join(replacement);
 };
 
-$(document).ready(function() 
+$(document).ready(function()
 {
     var params = getIncludeParameters();
     var tag = '';
@@ -51,7 +51,7 @@ $(document).ready(function()
     }
     catch(ex)
     {
-        // nothing here... 
+        // nothing here...
     }
 
     $("#"+tag).addClass("active");
@@ -67,19 +67,19 @@ $(document).ready(function()
         'https://pay.loadingplay.com',
         'https://pay.loadingplay.com',
         'https://pay.loadingplay.com');
-    var app_public = $.environmentVar(37,37,37);
+    var app_public = $.environmentVar('figurella','figurella','figurella');
 
     var config = {
         'app_public': app_public,
         'base_url': base_url,
-        'products_per_page' : 8, 
+        'products_per_page' : 8,
         'tag': tag,
         'ignore_stock': false,
         'infinite_scroll': true,
         // 'maxProducts': 100,
         'checkout_url': checkout_url,
         'operator' :'or',
-        'onLoad': function(products) 
+        'onLoad': function(products)
         {
             // if (products.length === 0)
             // {
@@ -109,7 +109,7 @@ $(document).ready(function()
 
         config.tag=$(this).attr('tag');
         // console.log(config);
-        
+
         // facade.page = 1; // o 1 no estoy seguro
         $(".products").html("");
         $(document).ecommerce('destroy');
