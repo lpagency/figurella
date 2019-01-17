@@ -1,0 +1,92 @@
+{% extends "../base.html" %}
+    {% block title %}
+    {{ site.name }}
+{% end %}
+{% block header %}
+    {% include '../home/header_inside.html' %}
+{% end %}
+{% block javascript %}
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYUOH4rtmdX21L9jA7GNa5W_fKq9Ej8s0&callback=initMap">
+    </script>
+    <script type="text/javascript" src="{{ site_base }}/{{ nocache_static }}/js/map_store.js"></script>
+{% end %}
+{% block body %}
+    {% if is_admin %}
+        {% set editabletext = 'editabletext' %}
+    {% else %}
+        {% set editabletext = '' %}
+    {% end %}
+    <div class="is"></div>
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <a href="{{ site_base }}/formulario">
+            <div class="box-ros">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <div class="texto-rer">
+                    Reserva <br> tu evaluación <br> sin costo
+                </div>
+            </div>
+        </a>
+    </div>
+    <section id="cont">
+        <div class="container">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div align="center">
+                    <div style="position:relative;">
+                        {% if is_admin %}
+                            <div class="image-upload">
+                                <label for="img_box_huerfanos">
+                                    <img class="change-image" src="https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png" onmouseover="this.src='https://7static.loadingplay.com/static/images/f2e626ad62e2c957b3708a27e55f4b03_btn-edit-hover.png';" onmouseout="this.src='https://7static.loadingplay.com/static/images/ef03c01fe39c6b7d1404e311adfe47ff_btn-edit.png'">
+                                </label>
+                                <input type="file" class="editableimage" image-id="{{ site.name }}_box_huerfanos" name="image" id="img_box_huerfanos" >
+                            </div>
+                        {% end %}
+                        <img id="{{ site.name }}_box_huerfanos" src="{{ read_image(site.name + '_box_huerfanos', 1) }}" onload="this.onload='';this.src='{{ read_image(site.name + '_box_huerfanos') }}'" class="box-locales" alt="item">
+                    </div>
+                    <div class="texto-ubi-2 {{editabletext}}" text-id="{{ site.name + '_local_huerfanos' }}">
+                        {{ read_text(site.name +  '_local_huerfanos') }}
+                    </div>
+                    <div class="texto-ubi-2 {{editabletext}}" text-id="{{ site.name + '_local_huerfanos_2' }}">
+                        {{ read_text(site.name +  '_local_huerfanos_2') }}
+                    </div>
+                    <a href="tel:56922192976">
+                        <div class="texto-ubi-2 {{editabletext}}" text-id="{{ site.name + '_huerfanos_1' }}">
+                            {{ read_text(site.name +  '_huerfanos_1') }}
+                        </div> 
+                    </a>
+                    <div class="texto-ubi-2 {{editabletext}}" text-id="{{ site.name + '_local_huerfanos_2_vi' }}">
+                        {{ read_text(site.name +  '_local_huerfanos_2_vi') }}
+                    </div>
+                    <hr class="inter hidden-sm hidden-xs">
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div align="center">
+                    <!--INSERTAR MAPA HUERFANOS ACA!!!-->
+                    <iframe src="#" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="on-map absolute top-map">
+                        <div class="container-fluid-new absolute">
+                            <div class="row-fluid-new">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="margin-bottom:30px;"></div>
+    </section>
+    <section style="height:150px;"></section>
+    {% include '../home/footer.html' %}
+{% end %}
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
