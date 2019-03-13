@@ -1875,7 +1875,7 @@ hr.inter {
         line-height: 30px;
         position: inherit;
         color: #919190;
-        margin-top: -236px !important;
+        margin-top: 10px !important;
     }
 
 /*****EMBAJADORAS******/
@@ -2153,7 +2153,7 @@ input::-webkit-input-placeholder {
     line-height: 30px;
     position: inherit;
     color: #919190;
-    margin-top: -309px !important;
+    margin-top: 10px !important;
 }
 
 
@@ -2455,7 +2455,7 @@ input::-webkit-input-placeholder {
     line-height: 30px;
     position: inherit;
     color: #919190;
-    margin-top: 0px !important;
+    margin-top: 10px !important;
 }
 
 .hav:hover {
