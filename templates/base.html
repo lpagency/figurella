@@ -327,42 +327,36 @@
     <!-- End Facebook Pixel Code -->
 
 
-    <!-- CODIGO AGREGADO EL 17-OCT-18, PEDIDO POR FIGURELLA, BTN WHATSAPP -->
+    <!-- CODIGO CAMBIADO EL 5-ABR-19, PEDIDO POR FIGURELLA, BTN WHATSAPP -->
     <!-- WhatsHelp.io widget -->
 
-<script type="text/javascript">
+    <script type="text/javascript">
 
-    (function () {
+        (function () {
 
-        var options = {
+            var options = {
 
-            whatsapp: "+56 9 631-01871", // WhatsApp number
+                whatsapp: "+56 (9) 63101871", // WhatsApp number
 
-            email: "info@figurella.cl", // Email
+                call_to_action: "Contáctanos", // Call to action
 
-            call_to_action: "Message us", // Call to action
+                position: "right", // Position may be 'right' or 'left'
 
-            button_color: "#FF6550", // Color of button
+            };
 
-            position: "right", // Position may be 'right' or 'left'
+            var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
 
-            order: "whatsapp,email", // Order of buttons
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
 
-        };
+            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
 
-        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
 
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        })();
 
-        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+    </script>
 
-        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-
-    })();
-
-</script>
-
-<!-- /WhatsHelp.io widget -->
+    <!-- /WhatsHelp.io widget -->
 
 </body>
 
