@@ -762,6 +762,7 @@ p {
 
 
 .box-ros{
+    display:none;
     background-color: rgba(185, 91, 140, 0.61);
     width: 245px;
     height: 65px;
@@ -2100,6 +2101,7 @@ textarea.fuc{
 }
 
 .box-ros {
+    display:none;
     background-color: rgba(185, 91, 140, 0.61);
     width: 188px;
     height: 64px;
@@ -2463,6 +2465,7 @@ textarea.fuc{
 
 @media (max-width: 500px){
     .box-ros {
+    display:none;
     background-color: rgba(185, 91, 140, 0.61);
     width: 188px;
     height: 64px;
